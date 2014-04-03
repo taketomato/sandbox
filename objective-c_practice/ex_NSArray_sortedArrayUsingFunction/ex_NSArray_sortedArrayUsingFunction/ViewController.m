@@ -41,6 +41,7 @@ NSInteger intSort(id num1, id num2, void *context)
     //ソートした配列を作る
     NSArray *sortedvlist = [vlist sortedArrayUsingFunction:intSort context:nil];
     NSLog(@"sortedvlist %@", sortedvlist);    //ソート後のsortedvlistの確認
+    NSEnumerator
 }
 
 - (void)didReceiveMemoryWarning
