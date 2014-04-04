@@ -21,6 +21,7 @@
 		5B5C009A18EE8E3200F3CB7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5C007C18EE8E3200F3CB7F /* UIKit.framework */; };
 		5B5C00A218EE8E3200F3CB7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C00A018EE8E3200F3CB7F /* InfoPlist.strings */; };
 		5B5C00A418EE8E3200F3CB7F /* ex_ImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C00A318EE8E3200F3CB7F /* ex_ImageViewTests.m */; };
+		5B5C00AE18EE8EBD00F3CB7F /* origin13330787586763.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C00AD18EE8EBD00F3CB7F /* origin13330787586763.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5B5C009F18EE8E3200F3CB7F /* ex_ImageViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_ImageViewTests-Info.plist"; sourceTree = "<group>"; };
 		5B5C00A118EE8E3200F3CB7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B5C00A318EE8E3200F3CB7F /* ex_ImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_ImageViewTests.m; sourceTree = "<group>"; };
+		5B5C00AD18EE8EBD00F3CB7F /* origin13330787586763.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = origin13330787586763.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				5B5C008718EE8E3200F3CB7F /* AppDelegate.h */,
 				5B5C008818EE8E3200F3CB7F /* AppDelegate.m */,
 				5B5C008A18EE8E3200F3CB7F /* Main.storyboard */,
+				5B5C00AD18EE8EBD00F3CB7F /* origin13330787586763.jpg */,
 				5B5C008D18EE8E3200F3CB7F /* ViewController.h */,
 				5B5C008E18EE8E3200F3CB7F /* ViewController.m */,
 				5B5C009018EE8E3200F3CB7F /* Images.xcassets */,
@@ -230,6 +233,7 @@
 			files = (
 				5B5C009118EE8E3200F3CB7F /* Images.xcassets in Resources */,
 				5B5C008318EE8E3200F3CB7F /* InfoPlist.strings in Resources */,
+				5B5C00AE18EE8EBD00F3CB7F /* origin13330787586763.jpg in Resources */,
 				5B5C008C18EE8E3200F3CB7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
