@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>8B0224D2-C5EE-4358-BEAE-DAFBAC1623F3</string>
+	<string>D342DAA5-F7F0-4C28-A7A8-9DA1A4246A59</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ChoiceFood</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>0B08279C-3472-4333-85D1-476F5C3441F3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>sandbox</string>
+			<string>ChoiceFood</string>
 		</dict>
 	</array>
 </dict>

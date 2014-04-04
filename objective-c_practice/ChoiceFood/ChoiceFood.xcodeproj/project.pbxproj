@@ -17,6 +17,7 @@
 		5B5C001518EE73D800F3CB7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5CFFF718EE73D800F3CB7F /* UIKit.framework */; };
 		5B5C001D18EE73D800F3CB7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C001B18EE73D800F3CB7F /* InfoPlist.strings */; };
 		5B5C001F18EE73D800F3CB7F /* ChoiceFoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C001E18EE73D800F3CB7F /* ChoiceFoodTests.m */; };
+		5B5C002A18EE73F600F3CB7F /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C002918EE73F600F3CB7F /* Food.m */; };
 		5B5CFFF418EE73D800F3CB7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5CFFF318EE73D800F3CB7F /* Foundation.framework */; };
 		5B5CFFF618EE73D800F3CB7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5CFFF518EE73D800F3CB7F /* CoreGraphics.framework */; };
 		5B5CFFF818EE73D800F3CB7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5CFFF718EE73D800F3CB7F /* UIKit.framework */; };
@@ -46,6 +47,8 @@
 		5B5C001A18EE73D800F3CB7F /* ChoiceFoodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChoiceFoodTests-Info.plist"; sourceTree = "<group>"; };
 		5B5C001C18EE73D800F3CB7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B5C001E18EE73D800F3CB7F /* ChoiceFoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChoiceFoodTests.m; sourceTree = "<group>"; };
+		5B5C002818EE73F600F3CB7F /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		5B5C002918EE73F600F3CB7F /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
 		5B5CFFF018EE73D800F3CB7F /* ChoiceFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoiceFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5CFFF318EE73D800F3CB7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B5CFFF518EE73D800F3CB7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +135,8 @@
 			children = (
 				5B5C000218EE73D800F3CB7F /* AppDelegate.h */,
 				5B5C000318EE73D800F3CB7F /* AppDelegate.m */,
+				5B5C002818EE73F600F3CB7F /* Food.h */,
+				5B5C002918EE73F600F3CB7F /* Food.m */,
 				5B5C000518EE73D800F3CB7F /* Main.storyboard */,
 				5B5C000818EE73D800F3CB7F /* ViewController.h */,
 				5B5C000918EE73D800F3CB7F /* ViewController.m */,
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B5C000A18EE73D800F3CB7F /* ViewController.m in Sources */,
+				5B5C002A18EE73F600F3CB7F /* Food.m in Sources */,
 				5B5C000418EE73D800F3CB7F /* AppDelegate.m in Sources */,
 				5B5C000018EE73D800F3CB7F /* main.m in Sources */,
 			);
