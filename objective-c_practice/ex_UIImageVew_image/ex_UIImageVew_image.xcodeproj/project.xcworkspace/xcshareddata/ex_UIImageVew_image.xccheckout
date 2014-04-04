@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2C9A4000-B843-422E-8E97-D2343ACDFED3</string>
+	<string>388CD24D-9F24-4331-846E-5CF3301EBAE0</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ex_addSubView_Image</string>
+	<string>ex_UIImageVew_image</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0B08279C-3472-4333-85D1-476F5C3441F3</key>
 		<string>https://github.com/taketomato/git_test</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>objective-c_practice/ex_addSubView_Image/ex_addSubView_Image.xcodeproj/project.xcworkspace</string>
+	<string>objective-c_practice/ex_UIImageVew_image/ex_UIImageVew_image.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0B08279C-3472-4333-85D1-476F5C3441F3</key>

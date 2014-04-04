@@ -21,6 +21,7 @@
 		5B5C00DD18EE91E200F3CB7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5C00BF18EE91E200F3CB7F /* UIKit.framework */; };
 		5B5C00E518EE91E200F3CB7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C00E318EE91E200F3CB7F /* InfoPlist.strings */; };
 		5B5C00E718EE91E200F3CB7F /* ex_addSubView_ImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C00E618EE91E200F3CB7F /* ex_addSubView_ImageTests.m */; };
+		5B5C00F118EE930900F3CB7F /* origin13330787586763.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C00F018EE930900F3CB7F /* origin13330787586763.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5B5C00E218EE91E200F3CB7F /* ex_addSubView_ImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_addSubView_ImageTests-Info.plist"; sourceTree = "<group>"; };
 		5B5C00E418EE91E200F3CB7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B5C00E618EE91E200F3CB7F /* ex_addSubView_ImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_addSubView_ImageTests.m; sourceTree = "<group>"; };
+		5B5C00F018EE930900F3CB7F /* origin13330787586763.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = origin13330787586763.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				5B5C00CB18EE91E200F3CB7F /* AppDelegate.m */,
 				5B5C00CD18EE91E200F3CB7F /* Main.storyboard */,
 				5B5C00D018EE91E200F3CB7F /* ViewController.h */,
+				5B5C00F018EE930900F3CB7F /* origin13330787586763.jpg */,
 				5B5C00D118EE91E200F3CB7F /* ViewController.m */,
 				5B5C00D318EE91E200F3CB7F /* Images.xcassets */,
 				5B5C00C218EE91E200F3CB7F /* Supporting Files */,
@@ -230,6 +233,7 @@
 			files = (
 				5B5C00D418EE91E200F3CB7F /* Images.xcassets in Resources */,
 				5B5C00C618EE91E200F3CB7F /* InfoPlist.strings in Resources */,
+				5B5C00F118EE930900F3CB7F /* origin13330787586763.jpg in Resources */,
 				5B5C00CF18EE91E200F3CB7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
