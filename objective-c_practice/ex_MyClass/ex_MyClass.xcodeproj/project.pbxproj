@@ -21,6 +21,7 @@
 		5BA7EEC118EE657500B15F8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA7EEA318EE657500B15F8A /* UIKit.framework */; };
 		5BA7EEC918EE657500B15F8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7EEC718EE657500B15F8A /* InfoPlist.strings */; };
 		5BA7EECB18EE657500B15F8A /* ex_MyClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7EECA18EE657500B15F8A /* ex_MyClassTests.m */; };
+		5BA7EED618EE65C700B15F8A /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7EED518EE65C700B15F8A /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5BA7EEC618EE657500B15F8A /* ex_MyClassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_MyClassTests-Info.plist"; sourceTree = "<group>"; };
 		5BA7EEC818EE657500B15F8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BA7EECA18EE657500B15F8A /* ex_MyClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_MyClassTests.m; sourceTree = "<group>"; };
+		5BA7EED418EE65C700B15F8A /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		5BA7EED518EE65C700B15F8A /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				5BA7EEAE18EE657500B15F8A /* AppDelegate.h */,
 				5BA7EEAF18EE657500B15F8A /* AppDelegate.m */,
 				5BA7EEB118EE657500B15F8A /* Main.storyboard */,
+				5BA7EED418EE65C700B15F8A /* MyClass.h */,
+				5BA7EED518EE65C700B15F8A /* MyClass.m */,
 				5BA7EEB418EE657500B15F8A /* ViewController.h */,
 				5BA7EEB518EE657500B15F8A /* ViewController.m */,
 				5BA7EEB718EE657500B15F8A /* Images.xcassets */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA7EED618EE65C700B15F8A /* MyClass.m in Sources */,
 				5BA7EEB618EE657500B15F8A /* ViewController.m in Sources */,
 				5BA7EEB018EE657500B15F8A /* AppDelegate.m in Sources */,
 				5BA7EEAC18EE657500B15F8A /* main.m in Sources */,
