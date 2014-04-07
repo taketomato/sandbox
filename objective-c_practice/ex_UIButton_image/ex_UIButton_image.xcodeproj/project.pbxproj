@@ -21,6 +21,7 @@
 		5B1C454B18F25E200060F8D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1C452D18F25E200060F8D7 /* UIKit.framework */; };
 		5B1C455318F25E200060F8D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C455118F25E200060F8D7 /* InfoPlist.strings */; };
 		5B1C455518F25E200060F8D7 /* ex_UIButton_imageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C455418F25E200060F8D7 /* ex_UIButton_imageTests.m */; };
+		5B1C456118F2689E0060F8D7 /* roundbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C456018F2689E0060F8D7 /* roundbtn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5B1C455018F25E200060F8D7 /* ex_UIButton_imageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_UIButton_imageTests-Info.plist"; sourceTree = "<group>"; };
 		5B1C455218F25E200060F8D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1C455418F25E200060F8D7 /* ex_UIButton_imageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_UIButton_imageTests.m; sourceTree = "<group>"; };
+		5B1C455F18F2684C0060F8D7 /* roundbtn */ = {isa = PBXFileReference; lastKnownFileType = file; path = roundbtn; sourceTree = "<group>"; };
+		5B1C456018F2689E0060F8D7 /* roundbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roundbtn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				5B1C453B18F25E200060F8D7 /* Main.storyboard */,
 				5B1C453E18F25E200060F8D7 /* ViewController.h */,
 				5B1C453F18F25E200060F8D7 /* ViewController.m */,
+				5B1C455F18F2684C0060F8D7 /* roundbtn */,
+				5B1C456018F2689E0060F8D7 /* roundbtn.png */,
 				5B1C454118F25E200060F8D7 /* Images.xcassets */,
 				5B1C453018F25E200060F8D7 /* Supporting Files */,
 			);
@@ -231,6 +236,7 @@
 				5B1C454218F25E200060F8D7 /* Images.xcassets in Resources */,
 				5B1C453418F25E200060F8D7 /* InfoPlist.strings in Resources */,
 				5B1C453D18F25E200060F8D7 /* Main.storyboard in Resources */,
+				5B1C456118F2689E0060F8D7 /* roundbtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>29995909-746A-4549-A222-8369301DCEBC</string>
+	<string>6D0CC15B-3D26-4C11-AAB2-4CD9997BA537</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ex_UIButton_image</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/taketomato/git_test</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>objective-c_practice/ex_UIButton_image/ex_UIButton_image.xcodeproj/project.xcworkspace</string>
+	<string>objective-c_practice_sample/PART05/chapter5-3/ex_UIButton_image/ex_UIButton_image.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0B08279C-3472-4333-85D1-476F5C3441F3</key>
-		<string>../../../..</string>
+		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/taketomato/git_test</string>
