@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  ex_UIButton
+//  ex_UIButton_addTarget
 //
 //  Created by tchiba on 2014/04/07.
 //  Copyright (c) 2014年 taketomato. All rights reserved.
@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+
 @end
 
 @implementation ViewController
@@ -17,12 +18,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button setTitle:@"Hello" forState:UIControlStateNormal];
-    [button setTitle:@"こんにちは" forState:UIControlStateHighlighted];
-    button.titleLabel.font = [UIFont boldSystemFontOfSize:18];
-    button.frame = CGRectMake(50, 50, 100, 40);
-    [self.view addSubview:button];
 }
 
 - (void)didReceiveMemoryWarning

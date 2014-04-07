@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7DA18145-F7CC-4D22-A508-09E5069628A8</string>
+	<string>9BF094BD-CDA3-46C8-A985-FC11D97D76E2</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ex_UIButton</string>
+	<string>ex_UIButton_addTarget</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0B08279C-3472-4333-85D1-476F5C3441F3</key>
 		<string>https://github.com/taketomato/git_test</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>objective-c_practice/ex_UIButton/ex_UIButton.xcodeproj/project.xcworkspace</string>
+	<string>objective-c_practice/ex_UIButton_addTarget/ex_UIButton_addTarget.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0B08279C-3472-4333-85D1-476F5C3441F3</key>
