@@ -21,6 +21,7 @@
 		5B1C465C18F27F4F0060F8D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1C463E18F27F4F0060F8D7 /* UIKit.framework */; };
 		5B1C466418F27F4F0060F8D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C466218F27F4F0060F8D7 /* InfoPlist.strings */; };
 		5B1C466618F27F4F0060F8D7 /* ex_UITapGR_doubleTapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C466518F27F4F0060F8D7 /* ex_UITapGR_doubleTapTests.m */; };
+		5B1C467018F27F650060F8D7 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C466F18F27F650060F8D7 /* flower.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5B1C466118F27F4F0060F8D7 /* ex_UITapGR-doubleTapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_UITapGR-doubleTapTests-Info.plist"; sourceTree = "<group>"; };
 		5B1C466318F27F4F0060F8D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1C466518F27F4F0060F8D7 /* ex_UITapGR_doubleTapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_UITapGR_doubleTapTests.m; sourceTree = "<group>"; };
+		5B1C466F18F27F650060F8D7 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				5B1C464C18F27F4F0060F8D7 /* Main.storyboard */,
 				5B1C464F18F27F4F0060F8D7 /* ViewController.h */,
 				5B1C465018F27F4F0060F8D7 /* ViewController.m */,
+				5B1C466F18F27F650060F8D7 /* flower.png */,
 				5B1C465218F27F4F0060F8D7 /* Images.xcassets */,
 				5B1C464118F27F4F0060F8D7 /* Supporting Files */,
 			);
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1C467018F27F650060F8D7 /* flower.png in Resources */,
 				5B1C465318F27F4F0060F8D7 /* Images.xcassets in Resources */,
 				5B1C464518F27F4F0060F8D7 /* InfoPlist.strings in Resources */,
 				5B1C464E18F27F4F0060F8D7 /* Main.storyboard in Resources */,
