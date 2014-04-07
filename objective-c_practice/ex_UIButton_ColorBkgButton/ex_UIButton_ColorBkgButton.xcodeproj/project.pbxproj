@@ -21,6 +21,7 @@
 		5B1C459018F26A610060F8D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1C457218F26A610060F8D7 /* UIKit.framework */; };
 		5B1C459818F26A610060F8D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C459618F26A610060F8D7 /* InfoPlist.strings */; };
 		5B1C459A18F26A610060F8D7 /* ex_UIButton_ColorBkgButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C459918F26A610060F8D7 /* ex_UIButton_ColorBkgButtonTests.m */; };
+		5B1C45A518F26C7E0060F8D7 /* ColorBkgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C45A418F26C7E0060F8D7 /* ColorBkgButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5B1C459518F26A610060F8D7 /* ex_UIButton_ColorBkgButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_UIButton_ColorBkgButtonTests-Info.plist"; sourceTree = "<group>"; };
 		5B1C459718F26A610060F8D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1C459918F26A610060F8D7 /* ex_UIButton_ColorBkgButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_UIButton_ColorBkgButtonTests.m; sourceTree = "<group>"; };
+		5B1C45A318F26C7E0060F8D7 /* ColorBkgButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorBkgButton.h; sourceTree = "<group>"; };
+		5B1C45A418F26C7E0060F8D7 /* ColorBkgButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorBkgButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		5B1C456218F26A610060F8D7 = {
 			isa = PBXGroup;
 			children = (
+				5B1C45A318F26C7E0060F8D7 /* ColorBkgButton.h */,
+				5B1C45A418F26C7E0060F8D7 /* ColorBkgButton.m */,
 				5B1C457418F26A610060F8D7 /* ex_UIButton_ColorBkgButton */,
 				5B1C459318F26A610060F8D7 /* ex_UIButton_ColorBkgButtonTests */,
 				5B1C456D18F26A610060F8D7 /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				5B1C458518F26A610060F8D7 /* ViewController.m in Sources */,
 				5B1C457F18F26A610060F8D7 /* AppDelegate.m in Sources */,
+				5B1C45A518F26C7E0060F8D7 /* ColorBkgButton.m in Sources */,
 				5B1C457B18F26A610060F8D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
