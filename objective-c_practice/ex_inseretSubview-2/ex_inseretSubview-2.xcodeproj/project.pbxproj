@@ -21,6 +21,11 @@
 		5B5C016318F2241100F3CB7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5C014518F2241100F3CB7F /* UIKit.framework */; };
 		5B5C016B18F2241100F3CB7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C016918F2241100F3CB7F /* InfoPlist.strings */; };
 		5B5C016D18F2241100F3CB7F /* ex_inseretSubview_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C016C18F2241100F3CB7F /* ex_inseretSubview_2Tests.m */; };
+		5B5C017718F2245C00F3CB7F /* origin13330787586763.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C017618F2245C00F3CB7F /* origin13330787586763.jpg */; };
+		5B5C017918F225E200F3CB7F /* github-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C017818F225E200F3CB7F /* github-logo.png */; };
+		5B5C017D18F2261300F3CB7F /* 8848-244-2013-06-07_18-26-38-wall-l.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C017A18F2261300F3CB7F /* 8848-244-2013-06-07_18-26-38-wall-l.png */; };
+		5B5C017E18F2261300F3CB7F /* kobito_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C017B18F2261300F3CB7F /* kobito_l.png */; };
+		5B5C017F18F2261300F3CB7F /* rubylogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C017C18F2261300F3CB7F /* rubylogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		5B5C016818F2241100F3CB7F /* ex_inseretSubview-2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_inseretSubview-2Tests-Info.plist"; sourceTree = "<group>"; };
 		5B5C016A18F2241100F3CB7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B5C016C18F2241100F3CB7F /* ex_inseretSubview_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_inseretSubview_2Tests.m; sourceTree = "<group>"; };
+		5B5C017618F2245C00F3CB7F /* origin13330787586763.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = origin13330787586763.jpg; sourceTree = "<group>"; };
+		5B5C017818F225E200F3CB7F /* github-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-logo.png"; sourceTree = "<group>"; };
+		5B5C017A18F2261300F3CB7F /* 8848-244-2013-06-07_18-26-38-wall-l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8848-244-2013-06-07_18-26-38-wall-l.png"; sourceTree = "<group>"; };
+		5B5C017B18F2261300F3CB7F /* kobito_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kobito_l.png; sourceTree = "<group>"; };
+		5B5C017C18F2261300F3CB7F /* rubylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rubylogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +122,7 @@
 		5B5C014718F2241100F3CB7F /* ex_inseretSubview-2 */ = {
 			isa = PBXGroup;
 			children = (
+				5B5C018018F2262100F3CB7F /* images */,
 				5B5C015018F2241100F3CB7F /* AppDelegate.h */,
 				5B5C015118F2241100F3CB7F /* AppDelegate.m */,
 				5B5C015318F2241100F3CB7F /* Main.storyboard */,
@@ -150,6 +161,18 @@
 				5B5C016918F2241100F3CB7F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B5C018018F2262100F3CB7F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5B5C017A18F2261300F3CB7F /* 8848-244-2013-06-07_18-26-38-wall-l.png */,
+				5B5C017B18F2261300F3CB7F /* kobito_l.png */,
+				5B5C017C18F2261300F3CB7F /* rubylogo.png */,
+				5B5C017618F2245C00F3CB7F /* origin13330787586763.jpg */,
+				5B5C017818F225E200F3CB7F /* github-logo.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +251,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5C017D18F2261300F3CB7F /* 8848-244-2013-06-07_18-26-38-wall-l.png in Resources */,
 				5B5C015A18F2241100F3CB7F /* Images.xcassets in Resources */,
+				5B5C017F18F2261300F3CB7F /* rubylogo.png in Resources */,
+				5B5C017E18F2261300F3CB7F /* kobito_l.png in Resources */,
+				5B5C017918F225E200F3CB7F /* github-logo.png in Resources */,
 				5B5C014C18F2241100F3CB7F /* InfoPlist.strings in Resources */,
+				5B5C017718F2245C00F3CB7F /* origin13330787586763.jpg in Resources */,
 				5B5C015518F2241100F3CB7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
