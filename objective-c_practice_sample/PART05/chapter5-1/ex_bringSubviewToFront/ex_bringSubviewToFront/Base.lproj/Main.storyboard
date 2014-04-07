@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yaa-Ug-rxs"/>
+                        <viewControllerLayoutGuide type="bottom" id="eZz-dk-jfQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="shami4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ulB-Kq-0hY">
+                                <rect key="frame" x="56" y="172" width="192" height="144"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="shami3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wZW-GG-cMj">
+                                <rect key="frame" x="114" y="69" width="192" height="144"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="shami2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IVB-Yo-7GM">
+                                <rect key="frame" x="20" y="20" width="192" height="144"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jOz-KM-WBj">
+                                <rect key="frame" x="47" y="338" width="226" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="photo1"/>
+                                    <segment title="photo2"/>
+                                    <segment title="photo3"/>
+                                </segments>
+                                <connections>
+                                    <action selector="selectPhoto:" destination="vXZ-lx-hvc" eventType="valueChanged" id="zko-c5-H1F"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="photo1" destination="IVB-Yo-7GM" id="54t-E7-Iw4"/>
+                        <outlet property="photo2" destination="wZW-GG-cMj" id="xOF-rR-3Vk"/>
+                        <outlet property="photo3" destination="ulB-Kq-0hY" id="ssJ-ua-ohb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="383" y="-62"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shami2.jpg" width="320" height="240"/>
+        <image name="shami3.jpg" width="320" height="240"/>
+        <image name="shami4.jpg" width="320" height="213"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

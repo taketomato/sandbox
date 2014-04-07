@@ -21,6 +21,8 @@
 		5B1C444318F237970060F8D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1C442518F237970060F8D7 /* UIKit.framework */; };
 		5B1C444B18F237970060F8D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C444918F237970060F8D7 /* InfoPlist.strings */; };
 		5B1C444D18F237970060F8D7 /* ex_convertPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C444C18F237970060F8D7 /* ex_convertPointTests.m */; };
+		5B1C445718F238A10060F8D7 /* tombo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C445618F238A10060F8D7 /* tombo.png */; };
+		5B1C445918F238A50060F8D7 /* ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C445818F238A50060F8D7 /* ring.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		5B1C444818F237970060F8D7 /* ex_convertPointTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_convertPointTests-Info.plist"; sourceTree = "<group>"; };
 		5B1C444A18F237970060F8D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1C444C18F237970060F8D7 /* ex_convertPointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_convertPointTests.m; sourceTree = "<group>"; };
+		5B1C445618F238A10060F8D7 /* tombo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tombo.png; sourceTree = "<group>"; };
+		5B1C445818F238A50060F8D7 /* ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ring.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				5B1C443018F237970060F8D7 /* AppDelegate.h */,
 				5B1C443118F237970060F8D7 /* AppDelegate.m */,
 				5B1C443318F237970060F8D7 /* Main.storyboard */,
+				5B1C445818F238A50060F8D7 /* ring.png */,
+				5B1C445618F238A10060F8D7 /* tombo.png */,
 				5B1C443618F237970060F8D7 /* ViewController.h */,
 				5B1C443718F237970060F8D7 /* ViewController.m */,
 				5B1C443918F237970060F8D7 /* Images.xcassets */,
@@ -229,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1C443A18F237970060F8D7 /* Images.xcassets in Resources */,
+				5B1C445918F238A50060F8D7 /* ring.png in Resources */,
+				5B1C445718F238A10060F8D7 /* tombo.png in Resources */,
 				5B1C442C18F237970060F8D7 /* InfoPlist.strings in Resources */,
 				5B1C443518F237970060F8D7 /* Main.storyboard in Resources */,
 			);

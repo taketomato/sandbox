@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923F767917CB68DD00B4858E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923F767817CB68DD00B4858E /* Foundation.framework */; };
+		923F767B17CB68DD00B4858E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923F767A17CB68DD00B4858E /* CoreGraphics.framework */; };
+		923F767D17CB68DD00B4858E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923F767C17CB68DD00B4858E /* UIKit.framework */; };
+		923F768317CB68DD00B4858E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 923F768117CB68DD00B4858E /* InfoPlist.strings */; };
+		923F768517CB68DD00B4858E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 923F768417CB68DD00B4858E /* main.m */; };
+		923F768917CB68DD00B4858E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 923F768817CB68DD00B4858E /* AppDelegate.m */; };
+		923F768C17CB68DD00B4858E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923F768A17CB68DD00B4858E /* Main.storyboard */; };
+		923F768F17CB68DD00B4858E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923F768E17CB68DD00B4858E /* ViewController.m */; };
+		923F769117CB68DD00B4858E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923F769017CB68DD00B4858E /* Images.xcassets */; };
+		923F769817CB68DD00B4858E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923F769717CB68DD00B4858E /* XCTest.framework */; };
+		923F769917CB68DD00B4858E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923F767817CB68DD00B4858E /* Foundation.framework */; };
+		923F769A17CB68DD00B4858E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923F767C17CB68DD00B4858E /* UIKit.framework */; };
+		923F76A217CB68DD00B4858E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 923F76A017CB68DD00B4858E /* InfoPlist.strings */; };
+		923F76A417CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 923F76A317CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests.m */; };
+		923F76AF17CB698300B4858E /* ColorBkgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 923F76AE17CB698300B4858E /* ColorBkgButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		923F769B17CB68DD00B4858E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923F766D17CB68DD00B4858E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923F767417CB68DD00B4858E;
+			remoteInfo = ex_UIButton_ColorBkgButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		923F767517CB68DD00B4858E /* ex_UIButton_ColorBkgButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ex_UIButton_ColorBkgButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923F767817CB68DD00B4858E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		923F767A17CB68DD00B4858E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		923F767C17CB68DD00B4858E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		923F768017CB68DD00B4858E /* ex_UIButton_ColorBkgButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_UIButton_ColorBkgButton-Info.plist"; sourceTree = "<group>"; };
+		923F768217CB68DD00B4858E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		923F768417CB68DD00B4858E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		923F768617CB68DD00B4858E /* ex_UIButton_ColorBkgButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ex_UIButton_ColorBkgButton-Prefix.pch"; sourceTree = "<group>"; };
+		923F768717CB68DD00B4858E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		923F768817CB68DD00B4858E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		923F768B17CB68DD00B4858E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		923F768D17CB68DD00B4858E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		923F768E17CB68DD00B4858E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		923F769017CB68DD00B4858E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		923F769617CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ex_UIButton_ColorBkgButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923F769717CB68DD00B4858E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		923F769F17CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_UIButton_ColorBkgButtonTests-Info.plist"; sourceTree = "<group>"; };
+		923F76A117CB68DD00B4858E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		923F76A317CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_UIButton_ColorBkgButtonTests.m; sourceTree = "<group>"; };
+		923F76AD17CB698300B4858E /* ColorBkgButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorBkgButton.h; path = ex_UIButton_ColorBkgButton/ColorBkgButton.h; sourceTree = "<group>"; };
+		923F76AE17CB698300B4858E /* ColorBkgButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorBkgButton.m; path = ex_UIButton_ColorBkgButton/ColorBkgButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923F767217CB68DD00B4858E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F767B17CB68DD00B4858E /* CoreGraphics.framework in Frameworks */,
+				923F767D17CB68DD00B4858E /* UIKit.framework in Frameworks */,
+				923F767917CB68DD00B4858E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F769317CB68DD00B4858E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F769817CB68DD00B4858E /* XCTest.framework in Frameworks */,
+				923F769A17CB68DD00B4858E /* UIKit.framework in Frameworks */,
+				923F769917CB68DD00B4858E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923F766C17CB68DD00B4858E = {
+			isa = PBXGroup;
+			children = (
+				923F76AD17CB698300B4858E /* ColorBkgButton.h */,
+				923F76AE17CB698300B4858E /* ColorBkgButton.m */,
+				923F767E17CB68DD00B4858E /* ex_UIButton_ColorBkgButton */,
+				923F769D17CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests */,
+				923F767717CB68DD00B4858E /* Frameworks */,
+				923F767617CB68DD00B4858E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		923F767617CB68DD00B4858E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923F767517CB68DD00B4858E /* ex_UIButton_ColorBkgButton.app */,
+				923F769617CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		923F767717CB68DD00B4858E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				923F767817CB68DD00B4858E /* Foundation.framework */,
+				923F767A17CB68DD00B4858E /* CoreGraphics.framework */,
+				923F767C17CB68DD00B4858E /* UIKit.framework */,
+				923F769717CB68DD00B4858E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		923F767E17CB68DD00B4858E /* ex_UIButton_ColorBkgButton */ = {
+			isa = PBXGroup;
+			children = (
+				923F768717CB68DD00B4858E /* AppDelegate.h */,
+				923F768817CB68DD00B4858E /* AppDelegate.m */,
+				923F768A17CB68DD00B4858E /* Main.storyboard */,
+				923F768D17CB68DD00B4858E /* ViewController.h */,
+				923F768E17CB68DD00B4858E /* ViewController.m */,
+				923F769017CB68DD00B4858E /* Images.xcassets */,
+				923F767F17CB68DD00B4858E /* Supporting Files */,
+			);
+			path = ex_UIButton_ColorBkgButton;
+			sourceTree = "<group>";
+		};
+		923F767F17CB68DD00B4858E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				923F768017CB68DD00B4858E /* ex_UIButton_ColorBkgButton-Info.plist */,
+				923F768117CB68DD00B4858E /* InfoPlist.strings */,
+				923F768417CB68DD00B4858E /* main.m */,
+				923F768617CB68DD00B4858E /* ex_UIButton_ColorBkgButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		923F769D17CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				923F76A317CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests.m */,
+				923F769E17CB68DD00B4858E /* Supporting Files */,
+			);
+			path = ex_UIButton_ColorBkgButtonTests;
+			sourceTree = "<group>";
+		};
+		923F769E17CB68DD00B4858E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				923F769F17CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests-Info.plist */,
+				923F76A017CB68DD00B4858E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923F767417CB68DD00B4858E /* ex_UIButton_ColorBkgButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923F76A717CB68DD00B4858E /* Build configuration list for PBXNativeTarget "ex_UIButton_ColorBkgButton" */;
+			buildPhases = (
+				923F767117CB68DD00B4858E /* Sources */,
+				923F767217CB68DD00B4858E /* Frameworks */,
+				923F767317CB68DD00B4858E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex_UIButton_ColorBkgButton;
+			productName = ex_UIButton_ColorBkgButton;
+			productReference = 923F767517CB68DD00B4858E /* ex_UIButton_ColorBkgButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		923F769517CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923F76AA17CB68DD00B4858E /* Build configuration list for PBXNativeTarget "ex_UIButton_ColorBkgButtonTests" */;
+			buildPhases = (
+				923F769217CB68DD00B4858E /* Sources */,
+				923F769317CB68DD00B4858E /* Frameworks */,
+				923F769417CB68DD00B4858E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923F769C17CB68DD00B4858E /* PBXTargetDependency */,
+			);
+			name = ex_UIButton_ColorBkgButtonTests;
+			productName = ex_UIButton_ColorBkgButtonTests;
+			productReference = 923F769617CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923F766D17CB68DD00B4858E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = yoshiyuki;
+				TargetAttributes = {
+					923F769517CB68DD00B4858E = {
+						TestTargetID = 923F767417CB68DD00B4858E;
+					};
+				};
+			};
+			buildConfigurationList = 923F767017CB68DD00B4858E /* Build configuration list for PBXProject "ex_UIButton_ColorBkgButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923F766C17CB68DD00B4858E;
+			productRefGroup = 923F767617CB68DD00B4858E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923F767417CB68DD00B4858E /* ex_UIButton_ColorBkgButton */,
+				923F769517CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923F767317CB68DD00B4858E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F769117CB68DD00B4858E /* Images.xcassets in Resources */,
+				923F768317CB68DD00B4858E /* InfoPlist.strings in Resources */,
+				923F768C17CB68DD00B4858E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F769417CB68DD00B4858E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F76A217CB68DD00B4858E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923F767117CB68DD00B4858E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F768F17CB68DD00B4858E /* ViewController.m in Sources */,
+				923F768917CB68DD00B4858E /* AppDelegate.m in Sources */,
+				923F76AF17CB698300B4858E /* ColorBkgButton.m in Sources */,
+				923F768517CB68DD00B4858E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F769217CB68DD00B4858E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F76A417CB68DD00B4858E /* ex_UIButton_ColorBkgButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		923F769C17CB68DD00B4858E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923F767417CB68DD00B4858E /* ex_UIButton_ColorBkgButton */;
+			targetProxy = 923F769B17CB68DD00B4858E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		923F768117CB68DD00B4858E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923F768217CB68DD00B4858E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		923F768A17CB68DD00B4858E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923F768B17CB68DD00B4858E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		923F76A017CB68DD00B4858E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923F76A117CB68DD00B4858E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		923F76A517CB68DD00B4858E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		923F76A617CB68DD00B4858E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		923F76A817CB68DD00B4858E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_UIButton_ColorBkgButton/ex_UIButton_ColorBkgButton-Prefix.pch";
+				INFOPLIST_FILE = "ex_UIButton_ColorBkgButton/ex_UIButton_ColorBkgButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		923F76A917CB68DD00B4858E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_UIButton_ColorBkgButton/ex_UIButton_ColorBkgButton-Prefix.pch";
+				INFOPLIST_FILE = "ex_UIButton_ColorBkgButton/ex_UIButton_ColorBkgButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		923F76AB17CB68DD00B4858E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ex_UIButton_ColorBkgButton.app/ex_UIButton_ColorBkgButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_UIButton_ColorBkgButton/ex_UIButton_ColorBkgButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ex_UIButton_ColorBkgButtonTests/ex_UIButton_ColorBkgButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		923F76AC17CB68DD00B4858E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ex_UIButton_ColorBkgButton.app/ex_UIButton_ColorBkgButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_UIButton_ColorBkgButton/ex_UIButton_ColorBkgButton-Prefix.pch";
+				INFOPLIST_FILE = "ex_UIButton_ColorBkgButtonTests/ex_UIButton_ColorBkgButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923F767017CB68DD00B4858E /* Build configuration list for PBXProject "ex_UIButton_ColorBkgButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923F76A517CB68DD00B4858E /* Debug */,
+				923F76A617CB68DD00B4858E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923F76A717CB68DD00B4858E /* Build configuration list for PBXNativeTarget "ex_UIButton_ColorBkgButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923F76A817CB68DD00B4858E /* Debug */,
+				923F76A917CB68DD00B4858E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923F76AA17CB68DD00B4858E /* Build configuration list for PBXNativeTarget "ex_UIButton_ColorBkgButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923F76AB17CB68DD00B4858E /* Debug */,
+				923F76AC17CB68DD00B4858E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 923F766D17CB68DD00B4858E /* Project object */;
+}

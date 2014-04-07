@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D0255D08-2549-432C-AFAF-6523AE62CFA4</string>
+	<string>37F8EC1C-98E2-4B3E-85D7-AD194ED14B95</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ex_convertPoint</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>0B08279C-3472-4333-85D1-476F5C3441F3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>ex_bringSubViewToFront</string>
+			<string>ex_convertPoint</string>
 		</dict>
 	</array>
 </dict>
