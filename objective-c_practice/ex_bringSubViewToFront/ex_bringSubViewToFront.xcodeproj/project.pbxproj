@@ -21,6 +21,9 @@
 		5B1C43FC18F2338B0060F8D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1C43DE18F2338B0060F8D7 /* UIKit.framework */; };
 		5B1C440418F2338B0060F8D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C440218F2338B0060F8D7 /* InfoPlist.strings */; };
 		5B1C440618F2338B0060F8D7 /* ex_bringSubViewToFrontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C440518F2338B0060F8D7 /* ex_bringSubViewToFrontTests.m */; };
+		5B1C441018F233A00060F8D7 /* origin13330787586763.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C440F18F233A00060F8D7 /* origin13330787586763.jpg */; };
+		5B1C441218F233A90060F8D7 /* kobito_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C441118F233A90060F8D7 /* kobito_l.png */; };
+		5B1C441418F233B40060F8D7 /* github-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C441318F233B40060F8D7 /* github-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		5B1C440118F2338B0060F8D7 /* ex_bringSubViewToFrontTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_bringSubViewToFrontTests-Info.plist"; sourceTree = "<group>"; };
 		5B1C440318F2338B0060F8D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1C440518F2338B0060F8D7 /* ex_bringSubViewToFrontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_bringSubViewToFrontTests.m; sourceTree = "<group>"; };
+		5B1C440F18F233A00060F8D7 /* origin13330787586763.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = origin13330787586763.jpg; sourceTree = "<group>"; };
+		5B1C441118F233A90060F8D7 /* kobito_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kobito_l.png; sourceTree = "<group>"; };
+		5B1C441318F233B40060F8D7 /* github-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 				5B1C43E918F2338B0060F8D7 /* AppDelegate.h */,
 				5B1C43EA18F2338B0060F8D7 /* AppDelegate.m */,
 				5B1C43EC18F2338B0060F8D7 /* Main.storyboard */,
+				5B1C441318F233B40060F8D7 /* github-logo.png */,
+				5B1C440F18F233A00060F8D7 /* origin13330787586763.jpg */,
+				5B1C441118F233A90060F8D7 /* kobito_l.png */,
 				5B1C43EF18F2338B0060F8D7 /* ViewController.h */,
 				5B1C43F018F2338B0060F8D7 /* ViewController.m */,
 				5B1C43F218F2338B0060F8D7 /* Images.xcassets */,
@@ -229,7 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1C43F318F2338B0060F8D7 /* Images.xcassets in Resources */,
+				5B1C441418F233B40060F8D7 /* github-logo.png in Resources */,
+				5B1C441218F233A90060F8D7 /* kobito_l.png in Resources */,
 				5B1C43E518F2338B0060F8D7 /* InfoPlist.strings in Resources */,
+				5B1C441018F233A00060F8D7 /* origin13330787586763.jpg in Resources */,
 				5B1C43EE18F2338B0060F8D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

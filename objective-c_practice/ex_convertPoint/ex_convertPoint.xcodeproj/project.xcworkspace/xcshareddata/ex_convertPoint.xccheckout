@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F04C2CAA-0C19-4309-947A-37927F47F8DF</string>
+	<string>D0255D08-2549-432C-AFAF-6523AE62CFA4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ex_bringSubViewToFront</string>
+	<string>ex_convertPoint</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0B08279C-3472-4333-85D1-476F5C3441F3</key>
 		<string>https://github.com/taketomato/git_test</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>objective-c_practice/ex_bringSubViewToFront/ex_bringSubViewToFront.xcodeproj/project.xcworkspace</string>
+	<string>objective-c_practice/ex_convertPoint/ex_convertPoint.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0B08279C-3472-4333-85D1-476F5C3441F3</key>
