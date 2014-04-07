@@ -21,6 +21,7 @@
 		5B1C469F18F283100060F8D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1C468118F283100060F8D7 /* UIKit.framework */; };
 		5B1C46A718F283100060F8D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C46A518F283100060F8D7 /* InfoPlist.strings */; };
 		5B1C46A918F283100060F8D7 /* ex_UIPanGR_drag_centerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C46A818F283100060F8D7 /* ex_UIPanGR_drag_centerTests.m */; };
+		5B1C46B318F283310060F8D7 /* tombo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C46B218F283310060F8D7 /* tombo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5B1C46A418F283100060F8D7 /* ex_UIPanGR-drag_centerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_UIPanGR-drag_centerTests-Info.plist"; sourceTree = "<group>"; };
 		5B1C46A618F283100060F8D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1C46A818F283100060F8D7 /* ex_UIPanGR_drag_centerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_UIPanGR_drag_centerTests.m; sourceTree = "<group>"; };
+		5B1C46B218F283310060F8D7 /* tombo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tombo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				5B1C468F18F283100060F8D7 /* Main.storyboard */,
 				5B1C469218F283100060F8D7 /* ViewController.h */,
 				5B1C469318F283100060F8D7 /* ViewController.m */,
+				5B1C46B218F283310060F8D7 /* tombo.png */,
 				5B1C469518F283100060F8D7 /* Images.xcassets */,
 				5B1C468418F283100060F8D7 /* Supporting Files */,
 			);
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1C469618F283100060F8D7 /* Images.xcassets in Resources */,
+				5B1C46B318F283310060F8D7 /* tombo.png in Resources */,
 				5B1C468818F283100060F8D7 /* InfoPlist.strings in Resources */,
 				5B1C469118F283100060F8D7 /* Main.storyboard in Resources */,
 			);

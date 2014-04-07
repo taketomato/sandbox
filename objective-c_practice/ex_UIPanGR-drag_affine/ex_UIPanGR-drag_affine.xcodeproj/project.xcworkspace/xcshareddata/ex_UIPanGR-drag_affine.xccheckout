@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5D8DC268-0C15-4D51-9D85-BB22340968F9</string>
+	<string>1A8568F3-B407-4A61-AA06-ADECBE2BE328</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ex_UIPanGR-drag_center</string>
+	<string>ex_UIPanGR-drag_affine</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0B08279C-3472-4333-85D1-476F5C3441F3</key>
 		<string>https://github.com/taketomato/git_test</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>objective-c_practice/ex_UIPanGR-drag_center/ex_UIPanGR-drag_center.xcodeproj/project.xcworkspace</string>
+	<string>objective-c_practice/ex_UIPanGR-drag_affine/ex_UIPanGR-drag_affine.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0B08279C-3472-4333-85D1-476F5C3441F3</key>
