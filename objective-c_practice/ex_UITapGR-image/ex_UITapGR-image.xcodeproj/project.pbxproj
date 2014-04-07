@@ -21,6 +21,7 @@
 		5B1C45D418F27AE70060F8D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1C45B618F27AE70060F8D7 /* UIKit.framework */; };
 		5B1C45DC18F27AE70060F8D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C45DA18F27AE70060F8D7 /* InfoPlist.strings */; };
 		5B1C45DE18F27AE70060F8D7 /* ex_UITapGR_imageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C45DD18F27AE70060F8D7 /* ex_UITapGR_imageTests.m */; };
+		5B1C45EA18F27B410060F8D7 /* tombo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C45E918F27B410060F8D7 /* tombo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5B1C45D918F27AE70060F8D7 /* ex_UITapGR-imageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_UITapGR-imageTests-Info.plist"; sourceTree = "<group>"; };
 		5B1C45DB18F27AE70060F8D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1C45DD18F27AE70060F8D7 /* ex_UITapGR_imageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_UITapGR_imageTests.m; sourceTree = "<group>"; };
+		5B1C45E918F27B410060F8D7 /* tombo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tombo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				5B1C45C418F27AE70060F8D7 /* Main.storyboard */,
 				5B1C45C718F27AE70060F8D7 /* ViewController.h */,
 				5B1C45C818F27AE70060F8D7 /* ViewController.m */,
+				5B1C45E918F27B410060F8D7 /* tombo.png */,
 				5B1C45CA18F27AE70060F8D7 /* Images.xcassets */,
 				5B1C45B918F27AE70060F8D7 /* Supporting Files */,
 			);
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1C45CB18F27AE70060F8D7 /* Images.xcassets in Resources */,
+				5B1C45EA18F27B410060F8D7 /* tombo.png in Resources */,
 				5B1C45BD18F27AE70060F8D7 /* InfoPlist.strings in Resources */,
 				5B1C45C618F27AE70060F8D7 /* Main.storyboard in Resources */,
 			);

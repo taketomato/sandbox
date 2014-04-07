@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		925DDC4D17CF74DD003BC329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925DDC4C17CF74DD003BC329 /* Foundation.framework */; };
+		925DDC4F17CF74DD003BC329 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925DDC4E17CF74DD003BC329 /* CoreGraphics.framework */; };
+		925DDC5117CF74DD003BC329 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925DDC5017CF74DD003BC329 /* UIKit.framework */; };
+		925DDC5717CF74DD003BC329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 925DDC5517CF74DD003BC329 /* InfoPlist.strings */; };
+		925DDC5917CF74DD003BC329 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 925DDC5817CF74DD003BC329 /* main.m */; };
+		925DDC5D17CF74DD003BC329 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 925DDC5C17CF74DD003BC329 /* AppDelegate.m */; };
+		925DDC6017CF74DD003BC329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925DDC5E17CF74DD003BC329 /* Main.storyboard */; };
+		925DDC6317CF74DD003BC329 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925DDC6217CF74DD003BC329 /* ViewController.m */; };
+		925DDC6517CF74DD003BC329 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925DDC6417CF74DD003BC329 /* Images.xcassets */; };
+		925DDC6C17CF74DD003BC329 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925DDC6B17CF74DD003BC329 /* XCTest.framework */; };
+		925DDC6D17CF74DD003BC329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925DDC4C17CF74DD003BC329 /* Foundation.framework */; };
+		925DDC6E17CF74DD003BC329 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925DDC5017CF74DD003BC329 /* UIKit.framework */; };
+		925DDC7617CF74DD003BC329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 925DDC7417CF74DD003BC329 /* InfoPlist.strings */; };
+		925DDC7817CF74DD003BC329 /* ex_UIAlertView_textInputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925DDC7717CF74DD003BC329 /* ex_UIAlertView_textInputTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		925DDC6F17CF74DD003BC329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925DDC4117CF74DD003BC329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925DDC4817CF74DD003BC329;
+			remoteInfo = "ex_UIAlertView-textInput";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		925DDC4917CF74DD003BC329 /* ex_UIAlertView-textInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ex_UIAlertView-textInput.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925DDC4C17CF74DD003BC329 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		925DDC4E17CF74DD003BC329 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		925DDC5017CF74DD003BC329 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		925DDC5417CF74DD003BC329 /* ex_UIAlertView-textInput-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_UIAlertView-textInput-Info.plist"; sourceTree = "<group>"; };
+		925DDC5617CF74DD003BC329 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		925DDC5817CF74DD003BC329 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		925DDC5A17CF74DD003BC329 /* ex_UIAlertView-textInput-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ex_UIAlertView-textInput-Prefix.pch"; sourceTree = "<group>"; };
+		925DDC5B17CF74DD003BC329 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		925DDC5C17CF74DD003BC329 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		925DDC5F17CF74DD003BC329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		925DDC6117CF74DD003BC329 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		925DDC6217CF74DD003BC329 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		925DDC6417CF74DD003BC329 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		925DDC6A17CF74DD003BC329 /* ex_UIAlertView-textInputTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ex_UIAlertView-textInputTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925DDC6B17CF74DD003BC329 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		925DDC7317CF74DD003BC329 /* ex_UIAlertView-textInputTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_UIAlertView-textInputTests-Info.plist"; sourceTree = "<group>"; };
+		925DDC7517CF74DD003BC329 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		925DDC7717CF74DD003BC329 /* ex_UIAlertView_textInputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_UIAlertView_textInputTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		925DDC4617CF74DD003BC329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925DDC4F17CF74DD003BC329 /* CoreGraphics.framework in Frameworks */,
+				925DDC5117CF74DD003BC329 /* UIKit.framework in Frameworks */,
+				925DDC4D17CF74DD003BC329 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925DDC6717CF74DD003BC329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925DDC6C17CF74DD003BC329 /* XCTest.framework in Frameworks */,
+				925DDC6E17CF74DD003BC329 /* UIKit.framework in Frameworks */,
+				925DDC6D17CF74DD003BC329 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		925DDC4017CF74DD003BC329 = {
+			isa = PBXGroup;
+			children = (
+				925DDC5217CF74DD003BC329 /* ex_UIAlertView-textInput */,
+				925DDC7117CF74DD003BC329 /* ex_UIAlertView-textInputTests */,
+				925DDC4B17CF74DD003BC329 /* Frameworks */,
+				925DDC4A17CF74DD003BC329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		925DDC4A17CF74DD003BC329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925DDC4917CF74DD003BC329 /* ex_UIAlertView-textInput.app */,
+				925DDC6A17CF74DD003BC329 /* ex_UIAlertView-textInputTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925DDC4B17CF74DD003BC329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				925DDC4C17CF74DD003BC329 /* Foundation.framework */,
+				925DDC4E17CF74DD003BC329 /* CoreGraphics.framework */,
+				925DDC5017CF74DD003BC329 /* UIKit.framework */,
+				925DDC6B17CF74DD003BC329 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		925DDC5217CF74DD003BC329 /* ex_UIAlertView-textInput */ = {
+			isa = PBXGroup;
+			children = (
+				925DDC5B17CF74DD003BC329 /* AppDelegate.h */,
+				925DDC5C17CF74DD003BC329 /* AppDelegate.m */,
+				925DDC5E17CF74DD003BC329 /* Main.storyboard */,
+				925DDC6117CF74DD003BC329 /* ViewController.h */,
+				925DDC6217CF74DD003BC329 /* ViewController.m */,
+				925DDC6417CF74DD003BC329 /* Images.xcassets */,
+				925DDC5317CF74DD003BC329 /* Supporting Files */,
+			);
+			path = "ex_UIAlertView-textInput";
+			sourceTree = "<group>";
+		};
+		925DDC5317CF74DD003BC329 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				925DDC5417CF74DD003BC329 /* ex_UIAlertView-textInput-Info.plist */,
+				925DDC5517CF74DD003BC329 /* InfoPlist.strings */,
+				925DDC5817CF74DD003BC329 /* main.m */,
+				925DDC5A17CF74DD003BC329 /* ex_UIAlertView-textInput-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		925DDC7117CF74DD003BC329 /* ex_UIAlertView-textInputTests */ = {
+			isa = PBXGroup;
+			children = (
+				925DDC7717CF74DD003BC329 /* ex_UIAlertView_textInputTests.m */,
+				925DDC7217CF74DD003BC329 /* Supporting Files */,
+			);
+			path = "ex_UIAlertView-textInputTests";
+			sourceTree = "<group>";
+		};
+		925DDC7217CF74DD003BC329 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				925DDC7317CF74DD003BC329 /* ex_UIAlertView-textInputTests-Info.plist */,
+				925DDC7417CF74DD003BC329 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925DDC4817CF74DD003BC329 /* ex_UIAlertView-textInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925DDC7B17CF74DD003BC329 /* Build configuration list for PBXNativeTarget "ex_UIAlertView-textInput" */;
+			buildPhases = (
+				925DDC4517CF74DD003BC329 /* Sources */,
+				925DDC4617CF74DD003BC329 /* Frameworks */,
+				925DDC4717CF74DD003BC329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ex_UIAlertView-textInput";
+			productName = "ex_UIAlertView-textInput";
+			productReference = 925DDC4917CF74DD003BC329 /* ex_UIAlertView-textInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+		925DDC6917CF74DD003BC329 /* ex_UIAlertView-textInputTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925DDC7E17CF74DD003BC329 /* Build configuration list for PBXNativeTarget "ex_UIAlertView-textInputTests" */;
+			buildPhases = (
+				925DDC6617CF74DD003BC329 /* Sources */,
+				925DDC6717CF74DD003BC329 /* Frameworks */,
+				925DDC6817CF74DD003BC329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925DDC7017CF74DD003BC329 /* PBXTargetDependency */,
+			);
+			name = "ex_UIAlertView-textInputTests";
+			productName = "ex_UIAlertView-textInputTests";
+			productReference = 925DDC6A17CF74DD003BC329 /* ex_UIAlertView-textInputTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		925DDC4117CF74DD003BC329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = yoshiyuki;
+				TargetAttributes = {
+					925DDC6917CF74DD003BC329 = {
+						TestTargetID = 925DDC4817CF74DD003BC329;
+					};
+				};
+			};
+			buildConfigurationList = 925DDC4417CF74DD003BC329 /* Build configuration list for PBXProject "ex_UIAlertView-textInput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 925DDC4017CF74DD003BC329;
+			productRefGroup = 925DDC4A17CF74DD003BC329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925DDC4817CF74DD003BC329 /* ex_UIAlertView-textInput */,
+				925DDC6917CF74DD003BC329 /* ex_UIAlertView-textInputTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		925DDC4717CF74DD003BC329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925DDC6517CF74DD003BC329 /* Images.xcassets in Resources */,
+				925DDC5717CF74DD003BC329 /* InfoPlist.strings in Resources */,
+				925DDC6017CF74DD003BC329 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925DDC6817CF74DD003BC329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925DDC7617CF74DD003BC329 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		925DDC4517CF74DD003BC329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925DDC6317CF74DD003BC329 /* ViewController.m in Sources */,
+				925DDC5D17CF74DD003BC329 /* AppDelegate.m in Sources */,
+				925DDC5917CF74DD003BC329 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925DDC6617CF74DD003BC329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925DDC7817CF74DD003BC329 /* ex_UIAlertView_textInputTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925DDC7017CF74DD003BC329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925DDC4817CF74DD003BC329 /* ex_UIAlertView-textInput */;
+			targetProxy = 925DDC6F17CF74DD003BC329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		925DDC5517CF74DD003BC329 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925DDC5617CF74DD003BC329 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		925DDC5E17CF74DD003BC329 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925DDC5F17CF74DD003BC329 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		925DDC7417CF74DD003BC329 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925DDC7517CF74DD003BC329 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		925DDC7917CF74DD003BC329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		925DDC7A17CF74DD003BC329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925DDC7C17CF74DD003BC329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_UIAlertView-textInput/ex_UIAlertView-textInput-Prefix.pch";
+				INFOPLIST_FILE = "ex_UIAlertView-textInput/ex_UIAlertView-textInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		925DDC7D17CF74DD003BC329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_UIAlertView-textInput/ex_UIAlertView-textInput-Prefix.pch";
+				INFOPLIST_FILE = "ex_UIAlertView-textInput/ex_UIAlertView-textInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		925DDC7F17CF74DD003BC329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ex_UIAlertView-textInput.app/ex_UIAlertView-textInput";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_UIAlertView-textInput/ex_UIAlertView-textInput-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ex_UIAlertView-textInputTests/ex_UIAlertView-textInputTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		925DDC8017CF74DD003BC329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ex_UIAlertView-textInput.app/ex_UIAlertView-textInput";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_UIAlertView-textInput/ex_UIAlertView-textInput-Prefix.pch";
+				INFOPLIST_FILE = "ex_UIAlertView-textInputTests/ex_UIAlertView-textInputTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		925DDC4417CF74DD003BC329 /* Build configuration list for PBXProject "ex_UIAlertView-textInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925DDC7917CF74DD003BC329 /* Debug */,
+				925DDC7A17CF74DD003BC329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925DDC7B17CF74DD003BC329 /* Build configuration list for PBXNativeTarget "ex_UIAlertView-textInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925DDC7C17CF74DD003BC329 /* Debug */,
+				925DDC7D17CF74DD003BC329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		925DDC7E17CF74DD003BC329 /* Build configuration list for PBXNativeTarget "ex_UIAlertView-textInputTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925DDC7F17CF74DD003BC329 /* Debug */,
+				925DDC8017CF74DD003BC329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 925DDC4117CF74DD003BC329 /* Project object */;
+}
