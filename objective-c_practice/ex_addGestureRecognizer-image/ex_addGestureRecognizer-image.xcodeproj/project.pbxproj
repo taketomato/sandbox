@@ -21,6 +21,7 @@
 		5B65937A18F3CC4A0007F2E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B65935C18F3CC4A0007F2E8 /* UIKit.framework */; };
 		5B65938218F3CC4A0007F2E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B65938018F3CC4A0007F2E8 /* InfoPlist.strings */; };
 		5B65938418F3CC4A0007F2E8 /* ex_addGestureRecognizer_imageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B65938318F3CC4A0007F2E8 /* ex_addGestureRecognizer_imageTests.m */; };
+		5B65938E18F3CC630007F2E8 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B65938D18F3CC630007F2E8 /* heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5B65937F18F3CC4A0007F2E8 /* ex_addGestureRecognizer-imageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_addGestureRecognizer-imageTests-Info.plist"; sourceTree = "<group>"; };
 		5B65938118F3CC4A0007F2E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B65938318F3CC4A0007F2E8 /* ex_addGestureRecognizer_imageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_addGestureRecognizer_imageTests.m; sourceTree = "<group>"; };
+		5B65938D18F3CC630007F2E8 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				5B65936A18F3CC4A0007F2E8 /* Main.storyboard */,
 				5B65936D18F3CC4A0007F2E8 /* ViewController.h */,
 				5B65936E18F3CC4A0007F2E8 /* ViewController.m */,
+				5B65938D18F3CC630007F2E8 /* heart.png */,
 				5B65937018F3CC4A0007F2E8 /* Images.xcassets */,
 				5B65935F18F3CC4A0007F2E8 /* Supporting Files */,
 			);
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B65938E18F3CC630007F2E8 /* heart.png in Resources */,
 				5B65937118F3CC4A0007F2E8 /* Images.xcassets in Resources */,
 				5B65936318F3CC4A0007F2E8 /* InfoPlist.strings in Resources */,
 				5B65936C18F3CC4A0007F2E8 /* Main.storyboard in Resources */,
