@@ -21,6 +21,7 @@
 		5B1C47AB18F378CA0060F8D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1C478D18F378C90060F8D7 /* UIKit.framework */; };
 		5B1C47B318F378CA0060F8D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C47B118F378CA0060F8D7 /* InfoPlist.strings */; };
 		5B1C47B518F378CA0060F8D7 /* ex_UILongPressGR_dropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C47B418F378CA0060F8D7 /* ex_UILongPressGR_dropTests.m */; };
+		5B1C47BF18F379010060F8D7 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1C47BE18F379010060F8D7 /* arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5B1C47B018F378CA0060F8D7 /* ex_UILongPressGR_dropTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_UILongPressGR_dropTests-Info.plist"; sourceTree = "<group>"; };
 		5B1C47B218F378CA0060F8D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1C47B418F378CA0060F8D7 /* ex_UILongPressGR_dropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_UILongPressGR_dropTests.m; sourceTree = "<group>"; };
+		5B1C47BE18F379010060F8D7 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				5B1C479B18F378C90060F8D7 /* Main.storyboard */,
 				5B1C479E18F378C90060F8D7 /* ViewController.h */,
 				5B1C479F18F378C90060F8D7 /* ViewController.m */,
+				5B1C47BE18F379010060F8D7 /* arrow.png */,
 				5B1C47A118F378CA0060F8D7 /* Images.xcassets */,
 				5B1C479018F378C90060F8D7 /* Supporting Files */,
 			);
@@ -231,6 +234,7 @@
 				5B1C47A218F378CA0060F8D7 /* Images.xcassets in Resources */,
 				5B1C479418F378C90060F8D7 /* InfoPlist.strings in Resources */,
 				5B1C479D18F378C90060F8D7 /* Main.storyboard in Resources */,
+				5B1C47BF18F379010060F8D7 /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
