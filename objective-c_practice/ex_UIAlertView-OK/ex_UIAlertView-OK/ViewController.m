@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+- (IBAction)tapButton:(id)sender;
 @end
 
 @implementation ViewController
@@ -24,6 +24,30 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)tapButton:(id)sender
+{
+    //アラートを作る
+    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"確認"
+                                                    message:@"実行します"
+                                                   delegate:self
+                                          cancelButtonTitle:@"キャンセル"
+                                          otherButtonTitles:@"OK", nil];
+    //アラートを表示する
+    [alert show];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if(buttonIndex == 0){
+        //キャンセルボタン
+        NSLog(@"キャンセルされました");
+    }
+    else if(buttonIndex == 1){
+        //OKボタン
+        NSLog(@"OKを選択しました");
+    }
 }
 
 @end
