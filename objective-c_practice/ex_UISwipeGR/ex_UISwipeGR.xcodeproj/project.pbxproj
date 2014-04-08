@@ -21,6 +21,7 @@
 		5B65933718F3C2B70007F2E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B65931918F3C2B70007F2E8 /* UIKit.framework */; };
 		5B65933F18F3C2B70007F2E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B65933D18F3C2B70007F2E8 /* InfoPlist.strings */; };
 		5B65934118F3C2B70007F2E8 /* ex_UISwipeGRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B65934018F3C2B70007F2E8 /* ex_UISwipeGRTests.m */; };
+		5B65934B18F3C3300007F2E8 /* shami4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B65934A18F3C3300007F2E8 /* shami4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5B65933C18F3C2B70007F2E8 /* ex_UISwipeGRTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_UISwipeGRTests-Info.plist"; sourceTree = "<group>"; };
 		5B65933E18F3C2B70007F2E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B65934018F3C2B70007F2E8 /* ex_UISwipeGRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_UISwipeGRTests.m; sourceTree = "<group>"; };
+		5B65934A18F3C3300007F2E8 /* shami4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shami4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				5B65932718F3C2B70007F2E8 /* Main.storyboard */,
 				5B65932A18F3C2B70007F2E8 /* ViewController.h */,
 				5B65932B18F3C2B70007F2E8 /* ViewController.m */,
+				5B65934A18F3C3300007F2E8 /* shami4.jpg */,
 				5B65932D18F3C2B70007F2E8 /* Images.xcassets */,
 				5B65931C18F3C2B70007F2E8 /* Supporting Files */,
 			);
@@ -231,6 +234,7 @@
 				5B65932E18F3C2B70007F2E8 /* Images.xcassets in Resources */,
 				5B65932018F3C2B70007F2E8 /* InfoPlist.strings in Resources */,
 				5B65932918F3C2B70007F2E8 /* Main.storyboard in Resources */,
+				5B65934B18F3C3300007F2E8 /* shami4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
