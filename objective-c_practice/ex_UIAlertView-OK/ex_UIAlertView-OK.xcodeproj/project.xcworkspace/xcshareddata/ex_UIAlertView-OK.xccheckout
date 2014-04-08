@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>85ABC4AA-4619-4518-90A4-0CD9A95AEE3E</string>
+	<string>A0F85A1A-375F-425E-BC85-CE5AB8DE6146</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ex_addGestureRecognizer-singleTapDoubletap</string>
+	<string>ex_UIAlertView-OK</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0B08279C-3472-4333-85D1-476F5C3441F3</key>
 		<string>https://github.com/taketomato/git_test</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>objective-c_practice/ex_addGestureRecognizer-singleTapDoubletap/ex_addGestureRecognizer-singleTapDoubletap.xcodeproj/project.xcworkspace</string>
+	<string>objective-c_practice/ex_UIAlertView-OK/ex_UIAlertView-OK.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0B08279C-3472-4333-85D1-476F5C3441F3</key>
